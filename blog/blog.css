@@ -1,0 +1,70 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Lora", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #AF1B3F;
+}
+
+a:hover {
+    color: #EFC69B;
+}
+
+header {
+    background-color: #473144;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav .main-nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: end;
+    list-style: none;
+    padding: 0;
+}
+
+nav .main-nav li {
+    padding: 0.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-reviews article {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skiptocontent a {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #AF1B3F;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skiptocontent a:focus {
+    top: 0;
+}
+
